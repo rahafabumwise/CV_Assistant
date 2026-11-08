@@ -1,0 +1,73 @@
+1. Modern Resume Formatting
+
+Modern resumes have evolved because of changes to how employers read resumes, the information they want to see, and the software tools used for creating, sharing, storing, and viewing resumes. Because of that, and based on current research into resume preferences by employers, this is a brief overview of how the modern resume is formatted. For more information, see the Thompson Rivers University Career Text (https://universitytocareer.pressbooks.tru.ca/) Chapter 5: Application Documents (https://universitytocareer.pressbooks.tru.ca/chapter/ application-documents/) from which this section is adapted. Getting Started Before starting your resume, create a list of all your work-related experience and organize it by date. Provide key information about your role to showcase your skills, training, education, awards/ accomplishments, workshops attended and potential. Make sure you list where your impact was with the quality or quantity of it: impact on customers, clients, staff, projects, and budget. Format your Experience Table How to Format your Experience Example: Role, Start Year- End Year Organization, Location Accomplishment Statements
+
+- (In bullet points) Server, Jun 2019- Apr 2023 Sunset Bar & Grill, Kamloops, BC
+
+- Increased repeat customers by providing customized recommendations based on past visits and greeting guests warmly Accomplishment Statements Before we move into your resume layout, we’re going to talk about the core of your resume, the accomplishment statement. These are sentences that explain what you did, why, how, or for whom you did it, and what the impact of it was. The most popular formats are:
+
+- Situation, Task, Action, Result (STAR)
+
+- Provided quality customer service in a team of six, working quickly and efficiently, which resulted in our store receiving an award.
+
+- Challenge, Actions, Results
+
+- Working in a team of six to ensure accurate and efficient service to customers, resulting in our store receiving an award from the head company.
+
+- Result, Action, Situation
+
+- Earned an award for the best franchise in the city by collaborating with a team of six to deliver accurate and efficient service to customers.
+
+- Situation, Action, Outcome
+
+- As part of a customer service team, provided exceptional support, resulting in our store earning an award.
+
+- Action/Skill, How, Why, How Well
+
+- Collaborated with a team of six to deliver exceptional customer service to guests, earning our store an award as the best franchise in the city. When writing your accomplishment statements, focus on the impact you’ve made on the organization, a department, finances, clients, or colleagues. Use relevant keywords from the job posting, and highlight both your technical and transferable skills. Including quantifiable information can help employers understand your abilities more effectively. Customize the Layout & Formatting Present your information in the best way to ensure the employer reads what is most important. The Reverse Chronological resume is the one that most employers prefer. This highlights links between previous work and the job posting, even if that experience wasn’t in the same field. Common Layout:
+
+- Name & Contact Information
+
+- Include the name you go by professionally, your email, phone number, city and province. More details are optional, but it’s unlikely the employer will need to send you physical mail
+
+- Summary of Qualifications
+
+- Quickly link your resume to the job postings through 4-7 bullet points, and accomplishments statements linked to skills listed in the job posting
+
+- Education & Training
+
+- List any post-secondary programs or other training you have completed or are currently enrolled in, most recent first. Include the formal name of the program or degree, institution, location, and date of completion or date of expected completion
+
+- Work Experience
+
+- This is where an employer will look to see how much experience you have, where it was, what it was, and what skills you gained, or your impact on the organization, customers, clients, or budget where you worked. Key information that must be included is job title, organization, location, dates, and what you did there. Each entry in the work experience section needs to be formatted exactly the same as the others
+
+- Other sections can include:
+
+- Volunteer Experience
+
+- Awards & Achievements
+
+- Interests
+
+- References
+
+- Accomplishments The purpose here is for you to showcase your skills and abilities in a way that a potential employer will understand. Resume Formatting and Applicant Tracking Systems The modern resume needs to be readable by both humans and Applicant Tracking Software (ATS). That means that many of the formatting and design choices that have been popular for resumes, and are built into many word processing programs or online resume templates, actually hurt your chances. An ATS isn’t a terrible thing that’s out to stop your resume; it’s just a way for organizations to deal with the large volume of resumes that come in. Their main function is to scan your resume and check for simple things like your contact information or if you’re using any of the keywords from the posting. Some ATS will determine how much experience you have based on what’s on the resume, or it may assess whether you have the correct education. Sometimes it will rank the resumes, but not every ATS does that, and not every organization wants it to do that. The most advanced of them use algorithms to evaluate everything from whether your work experience meets their minimum requirements to whether your grammar is good. The information in this section is designed to make your resume as readable as possible both by the ATS and by a person. Here are some simple formatting tips for your resume to make sure that it’s readable by both people and an ATS:
+
+- The standard for a professional resume is two pages.
+
+- Contact information goes at the top of the first page.
+
+- Use web-safe fonts like Arial, Calibri, Georgia, Tahoma, Times New Roman, and Verdana.
+
+- Keep your font size between 10 and 12 pt except for your name and headings.
+
+- Double-check your grammar and spelling.
+
+- Don’t put anything, especially your contact information, in headers.
+
+- Avoid using backgrounds, images, special characters and text boxes.
+
+- Try not to use columns or tables for your layout.
+
+- Make effective use of capital letters, bold type, italics, underlining, bullets, and spacing for emphasis.

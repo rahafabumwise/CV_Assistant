@@ -1,0 +1,87 @@
+[
+  {
+    "document_id": "tru_modern_resume_formatting",
+    "path": "data/cpt/documents/tru_modern_resume_formatting.txt",
+    "source_pdf": "ResumeCatalogue.pdf",
+    "pdf_pages_1_based": [
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "printed_pages": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "url": "https://resumecatalogue.pressbooks.tru.ca/chapter/resume-formatting/",
+    "authors": [
+      "Noah Arney",
+      "Leanne Mihalicz",
+      "Sarah Gibson"
+    ],
+    "publisher": "Thompson Rivers University",
+    "license": "CC BY-NC-SA 4.0 except where otherwise noted",
+    "word_count": 1034,
+    "sha256": "96aae2a5d5fb53e53e3dc3270cab479eeed7e748524f4b888ca4775ddc23c13b",
+    "split": "unassigned",
+    "context": "Canadian resume guidance; not universal country-specific rules"
+  },
+  {
+    "document_id": "tru_action_verbs",
+    "path": "data/cpt/documents/tru_action_verbs.txt",
+    "source_pdf": "ResumeCatalogue.pdf",
+    "pdf_pages_1_based": [
+      34,
+      35
+    ],
+    "printed_pages": [
+      28,
+      29
+    ],
+    "url": "https://resumecatalogue.pressbooks.tru.ca/chapter/action-verbs/",
+    "authors": [
+      "Noah Arney",
+      "Leanne Mihalicz",
+      "Sarah Gibson"
+    ],
+    "publisher": "Thompson Rivers University",
+    "license": "CC BY-NC-SA 4.0 except where otherwise noted",
+    "word_count": 176,
+    "sha256": "49961d03cb699a7ea80164ef3e1390bdd0890001581271bf4e63d57fe44d27e4",
+    "split": "unassigned",
+    "context": "Canadian resume guidance; not universal country-specific rules"
+  },
+  {
+    "document_id": "tru_transferable_skills",
+    "path": "data/cpt/documents/tru_transferable_skills.txt",
+    "source_pdf": "ResumeCatalogue.pdf",
+    "pdf_pages_1_based": [
+      51,
+      52,
+      53,
+      54
+    ],
+    "printed_pages": [
+      45,
+      46,
+      47,
+      48
+    ],
+    "url": "https://resumecatalogue.pressbooks.tru.ca/chapter/discover-your-transferable-skills/",
+    "authors": [
+      "Noah Arney",
+      "Leanne Mihalicz",
+      "Sarah Gibson"
+    ],
+    "publisher": "Thompson Rivers University",
+    "license": "CC BY-NC-SA 4.0 except where otherwise noted",
+    "word_count": 355,
+    "sha256": "df0de22d1c6e559dad4fd5d3e2d7c57114c2a73ba81727e86444c1cecd2b62a3",
+    "split": "unassigned",
+    "context": "Canadian resume guidance; not universal country-specific rules"
+  }
+]
