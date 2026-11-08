@@ -83,5 +83,88 @@
     "sha256": "df0de22d1c6e559dad4fd5d3e2d7c57114c2a73ba81727e86444c1cecd2b62a3",
     "split": "unassigned",
     "context": "Canadian resume guidance; not universal country-specific rules"
+  },
+  {
+    "document_id": "tru_overall_format",
+    "path": "data/cpt/documents/tru_overall_format.txt",
+    "source_pdf": "Overall-Format.pdf",
+    "pdf_pages_1_based": [
+      1,
+      2
+    ],
+    "url": "http://resumecatalogue.pressbooks.tru.ca/wp-content/uploads/sites/125/2026/03/Overall-Format.pdf",
+    "parent_url": "https://resumecatalogue.pressbooks.tru.ca/chapter/resume-sections-explained/",
+    "publisher": "Thompson Rivers University",
+    "license": "Parent book: CC BY-NC-SA 4.0 except where otherwise noted; transcript has no separate licence statement",
+    "word_count": 484,
+    "sha256": "801ecf80117f1e68ff53e301bda37cef295fa1e2d90f1b909be16b7aa32ffbea",
+    "split": "unassigned",
+    "context": "Canadian resume guidance; transcript wording preserved"
+  },
+  {
+    "document_id": "tru_education_training_and_certificates",
+    "path": "data/cpt/documents/tru_education_training_and_certificates.txt",
+    "source_pdf": "Education-Training-and-Certificates.pdf",
+    "pdf_pages_1_based": [
+      1,
+      2
+    ],
+    "url": "http://resumecatalogue.pressbooks.tru.ca/wp-content/uploads/sites/125/2026/03/Education-Training-and-Certificates.pdf",
+    "parent_url": "https://resumecatalogue.pressbooks.tru.ca/chapter/resume-sections-explained/",
+    "publisher": "Thompson Rivers University",
+    "license": "Parent book: CC BY-NC-SA 4.0 except where otherwise noted; transcript has no separate licence statement",
+    "word_count": 370,
+    "sha256": "b8240dd10cab74e5fd565af91697bb1f90f68b0d54106c3dbe147ee4bf85a45c",
+    "split": "unassigned",
+    "context": "Canadian resume guidance; transcript wording preserved"
+  },
+  {
+    "document_id": "tru_hobbies_interest",
+    "path": "data/cpt/documents/tru_hobbies_interest.txt",
+    "source_pdf": "Hobbies-Interest.pdf",
+    "pdf_pages_1_based": [
+      1
+    ],
+    "url": "http://resumecatalogue.pressbooks.tru.ca/wp-content/uploads/sites/125/2026/03/Hobbies-Interest.pdf",
+    "parent_url": "https://resumecatalogue.pressbooks.tru.ca/chapter/resume-sections-explained/",
+    "publisher": "Thompson Rivers University",
+    "license": "Parent book: CC BY-NC-SA 4.0 except where otherwise noted; transcript has no separate licence statement",
+    "word_count": 114,
+    "sha256": "e35f470e9d9db99c65975ee8686c4397298cfd5fe68ee5291fd11da034878479",
+    "split": "unassigned",
+    "context": "Canadian resume guidance; transcript wording preserved"
+  },
+  {
+    "document_id": "tru_volunteering_community_involvement",
+    "path": "data/cpt/documents/tru_volunteering_community_involvement.txt",
+    "source_pdf": "Volunteering-Community-Involvement.pdf",
+    "pdf_pages_1_based": [
+      1
+    ],
+    "url": "http://resumecatalogue.pressbooks.tru.ca/wp-content/uploads/sites/125/2026/03/Volunteering-Community-Involvement.pdf",
+    "parent_url": "https://resumecatalogue.pressbooks.tru.ca/chapter/resume-sections-explained/",
+    "publisher": "Thompson Rivers University",
+    "license": "Parent book: CC BY-NC-SA 4.0 except where otherwise noted; transcript has no separate licence statement",
+    "word_count": 183,
+    "sha256": "7356a1fd3ea30ac20fd0da56f6c6f62a4300263d484b81e178c88e665d18d224",
+    "split": "unassigned",
+    "context": "Canadian resume guidance; transcript wording preserved"
+  },
+  {
+    "document_id": "tru_employment_or_work_experience",
+    "path": "data/cpt/documents/tru_employment_or_work_experience.txt",
+    "source_pdf": "Employment-or-Work-Experience.pdf",
+    "pdf_pages_1_based": [
+      1,
+      2
+    ],
+    "url": "http://resumecatalogue.pressbooks.tru.ca/wp-content/uploads/sites/125/2026/03/Employment-or-Work-Experience.pdf",
+    "parent_url": "https://resumecatalogue.pressbooks.tru.ca/chapter/resume-sections-explained/",
+    "publisher": "Thompson Rivers University",
+    "license": "Parent book: CC BY-NC-SA 4.0 except where otherwise noted; transcript has no separate licence statement",
+    "word_count": 350,
+    "sha256": "053a924602a5109dacef110e15d64e5109b030296e082505af7461f92fd8da7b",
+    "split": "unassigned",
+    "context": "Canadian resume guidance; transcript wording preserved"
   }
 ]

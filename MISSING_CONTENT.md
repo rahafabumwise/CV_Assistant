@@ -1,11 +1,5 @@
-# Missing content in the supplied PDF
+# Collection status
 
-Physical PDF pages 24–28 link to separate video transcripts. Their instructional text is not embedded in this PDF. These URLs were transcribed from the source; the linked documents have not been downloaded or verified in this conversion. Do not count them as collected data.
+All five Resume Sections Explained transcripts formerly marked missing have now been supplied and converted: Overall Format; Education, Training, and Certificates; Employment or Work Experience; Volunteering and Community Involvement; Hobbies and Interests.
 
-- Overall Format: http://resumecatalogue.pressbooks.tru.ca/wp-content/uploads/sites/125/2026/03/Overall-Format.pdf
-- Education, Training, and Certificates: http://resumecatalogue.pressbooks.tru.ca/wp-content/uploads/sites/125/2026/03/Education-Training-and-Certificates.pdf
-- Employment or Work Experience: http://resumecatalogue.pressbooks.tru.ca/wp-content/uploads/sites/125/2026/03/Employment-or-Work-Experience.pdf
-- Volunteering or Community Involvement: http://resumecatalogue.pressbooks.tru.ca/wp-content/uploads/sites/125/2026/03/Volunteering-Community-Involvement.pdf
-- Hobbies and Interests: http://resumecatalogue.pressbooks.tru.ca/wp-content/uploads/sites/125/2026/03/Hobbies-Interest.pdf
-
-Sector-specific examples and skills activities also rely on external interactive elements. Their missing content was not reconstructed. Cover letters and AI prompt examples were excluded to keep this corpus focused on first-CV guidance.
+The source book still links to interactive sector-specific samples and skills activities that are not included. These are not counted as collected text. Cover-letter and AI-prompt chapters remain outside this selected corpus.
