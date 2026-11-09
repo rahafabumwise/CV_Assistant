@@ -1,0 +1,157 @@
+{
+  "total": 300,
+  "train": 270,
+  "validation": 30,
+  "human_accepted": 50,
+  "ai_checked_without_human_review": 250,
+  "project_policy_examples": 30,
+  "test_question_count": 30,
+  "test_file_sha256": "d59246856cc915107dd43a7add3cf4b23678bddd7c1a8ff2f8853f616b13b81b",
+  "exact_question_overlap_with_test": 0,
+  "exact_question_duplicates": 0,
+  "exact_answer_overlap_between_splits": 0,
+  "cpt_validation_used": false,
+  "source_hashes_match": true,
+  "topic_counts": {
+    "reference_permission": 2,
+    "reference_delivery": 1,
+    "pronoun_edit": 7,
+    "high_school": 1,
+    "summary_purpose": 1,
+    "font_choice": 4,
+    "graphics_and_textboxes": 2,
+    "application_font_consistency": 3,
+    "education_position": 1,
+    "language_skills": 1,
+    "active_voice": 9,
+    "proofreading_grammar": 13,
+    "proofreading_spelling": 12,
+    "concrete_tools": 9,
+    "concrete_documents": 14,
+    "quantified_scope": 15,
+    "language_entry": 8,
+    "profile_drafting": 19,
+    "profile_edit": 8,
+    "profile_focus": 4,
+    "course_selection": 3,
+    "certification_inclusion": 2,
+    "certification_grouping": 2,
+    "cross_section_format": 2,
+    "reference_count": 2,
+    "reference_permission_message": 3,
+    "reference_sheet_style": 2,
+    "word_header": 1,
+    "background_design": 2,
+    "bullet_style": 2,
+    "date_alignment": 2,
+    "bold_hierarchy": 2,
+    "template_limitations": 2,
+    "academic_cv_scope": 2,
+    "industry_expectations": 3,
+    "skim_reading": 2,
+    "equipment_specificity": 6,
+    "technical_specificity": 11,
+    "length_context": 1,
+    "proofreading_process": 2,
+    "factual_scope": 25,
+    "factual_metrics": 17,
+    "detail_selection": 10,
+    "multi_bullet_edit": 20,
+    "layout_review": 10,
+    "clarify_missing_text": 7,
+    "clarify_missing_facts": 5,
+    "clarify_missing_material": 3,
+    "refusal_non_cv": 15
+  },
+  "validation_groups": [
+    "concrete_tools",
+    "equipment_specificity",
+    "industry_expectations",
+    "pronoun_edit",
+    "reference_consent_family"
+  ],
+  "closest_test_questions": [
+    {
+      "sft_id": "sample_006",
+      "test_id": "3",
+      "question_similarity": 0.5738
+    },
+    {
+      "sft_id": "sample_004",
+      "test_id": "5",
+      "question_similarity": 0.5692
+    },
+    {
+      "sft_id": "sample_044",
+      "test_id": "5",
+      "question_similarity": 0.5042
+    },
+    {
+      "sft_id": "sample_010",
+      "test_id": "5",
+      "question_similarity": 0.495
+    },
+    {
+      "sft_id": "sample_030",
+      "test_id": "25",
+      "question_similarity": 0.4796
+    },
+    {
+      "sft_id": "sft_247",
+      "test_id": "2",
+      "question_similarity": 0.4737
+    },
+    {
+      "sft_id": "sft_127",
+      "test_id": "15",
+      "question_similarity": 0.4733
+    },
+    {
+      "sft_id": "sft_266",
+      "test_id": "12",
+      "question_similarity": 0.4724
+    },
+    {
+      "sft_id": "sft_256",
+      "test_id": "13",
+      "question_similarity": 0.4646
+    },
+    {
+      "sft_id": "sft_226",
+      "test_id": "19",
+      "question_similarity": 0.4645
+    },
+    {
+      "sft_id": "sft_168",
+      "test_id": "27",
+      "question_similarity": 0.4636
+    },
+    {
+      "sft_id": "sft_177",
+      "test_id": "11",
+      "question_similarity": 0.4606
+    },
+    {
+      "sft_id": "sample_009",
+      "test_id": "21",
+      "question_similarity": 0.4583
+    },
+    {
+      "sft_id": "sft_062",
+      "test_id": "14",
+      "question_similarity": 0.4571
+    },
+    {
+      "sft_id": "sft_200",
+      "test_id": "11",
+      "question_similarity": 0.4568
+    }
+  ],
+  "cross_split_question_similarity_at_least_075": [],
+  "limitations": [
+    "Lexical checks cannot establish semantic independence.",
+    "Repeated skill practice is intentionally grouped; 300 examples do not represent 300 independent CV rules.",
+    "The set is dominated by editing and factual wording because broad introductory questions already occur in the frozen test set.",
+    "Only the first 50 pairs have user-confirmed human review."
+  ]
+}
