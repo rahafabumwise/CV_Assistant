@@ -50,11 +50,7 @@ Modern resumes have evolved because of changes to how employers read resumes, th
 
 - Interests
 
-- References
-
 - Accomplishments The purpose here is for you to showcase your skills and abilities in a way that a potential employer will understand. Resume Formatting and Applicant Tracking Systems The modern resume needs to be readable by both humans and Applicant Tracking Software (ATS). That means that many of the formatting and design choices that have been popular for resumes, and are built into many word processing programs or online resume templates, actually hurt your chances. An ATS isn’t a terrible thing that’s out to stop your resume; it’s just a way for organizations to deal with the large volume of resumes that come in. Their main function is to scan your resume and check for simple things like your contact information or if you’re using any of the keywords from the posting. Some ATS will determine how much experience you have based on what’s on the resume, or it may assess whether you have the correct education. Sometimes it will rank the resumes, but not every ATS does that, and not every organization wants it to do that. The most advanced of them use algorithms to evaluate everything from whether your work experience meets their minimum requirements to whether your grammar is good. The information in this section is designed to make your resume as readable as possible both by the ATS and by a person. Here are some simple formatting tips for your resume to make sure that it’s readable by both people and an ATS:
-
-- The standard for a professional resume is two pages.
 
 - Contact information goes at the top of the first page.
 
