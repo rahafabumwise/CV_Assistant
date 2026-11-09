@@ -1,26 +1,18 @@
-# CV assistant continued-pretraining data
+# CV assistant project data
 
-11 cleaned text documents from TRU Resume Catalogue and selected Open Oregon Technical Writing sections. Total: 5,968 whitespace-counted words. Token counts require the chosen tokenizer. This remains a small educational experiment, not a production-ready assistant.
+Reviewed-v2 dataset: 11 cleaned documents, 5,741 words (whitespace count), and 30 evaluation questions. GPT-2 token counts must be recomputed. This package replaces the earlier data files at the SAME paths. It contains no model training code or weights.
 
-## Files
+## Install on GitHub
 
-- data/cpt/documents/: eight original TRU texts plus three new Oregon texts.
-- tests/test_questions.csv: existing 30 evaluation questions; unchanged by this update.
-- source_manifest.json: source paths, PDF pages, licences, word counts and checksums for all 11 documents.
-- ATTRIBUTION.md: credit and licence details.
-- DATA_REVIEW.md: selection decisions, conflicting recommendations and limitations.
-- MISSING_CONTENT.md: original TRU interactive-content collection status.
+1. Open data/cpt/documents in your existing repository. Upload all 11 .txt files from this package's matching folder to replace the earlier files.
+2. Open tests and upload test_questions.csv plus its README.md. This README belongs inside tests; it does not replace the project README.
+3. At the repository root, upload README.md, ATTRIBUTION.md, DATA_REVIEW.md, DECISION_LOG.md, MISSING_CONTENT.md and source_manifest.json.
+4. Keep other project files. Commit with: Review corpus consistency and revise evaluation set.
 
-## Install this update
+The dataset has 15 easy, 10 medium and 5 hard test cases; three are unanswerable. These are drafted examples, not student interview data. Read tests/README.md for review and scoring instructions. IDs 3, 14, 23 and 26 are revised before training with the instructor's permission as reported by the user.
 
-This ZIP is an addition to your existing repository, not a complete replacement. Upload its three .txt files directly inside the EXISTING data/cpt/documents folder. Upload README.md, ATTRIBUTION.md, DATA_REVIEW.md and source_manifest.json at the repository root to replace those files. Keep all eight earlier .txt files, MISSING_CONTENT.md and tests/test_questions.csv.
+## Next
 
-## Continue in Colab
+Review as a team and freeze the test version. Refresh Colab from GitHub, re-discover the 11 .txt files, count tokens, and select a whole-document approximately 90/10 split with overlap checks. Do not rerun the old seven-document split. Record seed, actual split proportions and selected filenames in the training configuration. Only read data/cpt/documents/*.txt into continued pretraining. Never train on test_questions.csv or documentation. SFT pairs must be separate and must not copy or paraphrase test questions.
 
-Refresh the repository using git pull before rerunning file discovery and token counting. The earlier split.json is provisional and stale; do not use it for training until it has been regenerated and checked. Only tokenize .txt files in data/cpt/documents. Do not train on documentation or test questions.
-
-Choose and record a whole-document split after checking cross-source repetition. Use approximately 90/10 and report actual document and token proportions. Prepare 300–1,000 separate checked SFT pairs, with test questions and paraphrases excluded. No training scripts, final split or SFT pairs are included yet.
-
-## Scope
-
-English first-CV guidance for students and recent graduates. Sources use Canadian and US conventions; answers must not treat their recommendations as universal country-specific rules. See DATA_REVIEW.md.
+Data selection and removals are documented in DECISION_LOG.md; exact provenance and hashes are in source_manifest.json. Canadian and US sources are used; recommendations are not universal country-specific rules. Original source documents are not included in this ZIP. No training or model evaluation has been run for this update.

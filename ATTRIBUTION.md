@@ -22,3 +22,7 @@ Technical Writing, Open Oregon Educational Resources. Selected text from section
 Source: https://openoregon.pressbooks.pub/technicalwriting/
 Licence: https://creativecommons.org/licenses/by/4.0/
 Changes: extracted selected CV-relevant prose; removed page furniture, sample CVs and their personal contact details, separately licensed action-verb table, external-site exercises and references to omitted figures. Omitted one recommendation to align layouts with tables because it conflicts with the ATS-safe layout advice in the existing corpus. Joined line wraps; normalised bullets. Retained selected text under CC BY 4.0; existing TRU text retains its original licence. No images included.
+
+## Reviewed-v2 changes
+
+Additional selected-text omissions are itemized in DECISION_LOG.md. All original source credits and document-specific licences remain applicable. This is an edited educational corpus; it is not a verbatim reproduction of every chapter. The original PDFs remain unchanged.
