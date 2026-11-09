@@ -166,5 +166,90 @@
     "sha256": "053a924602a5109dacef110e15d64e5109b030296e082505af7461f92fd8da7b",
     "split": "unassigned",
     "context": "Canadian resume guidance; transcript wording preserved"
+  },
+  {
+    "document_id": "oregon_cv_preparation",
+    "path": "data/cpt/documents/oregon_cv_preparation.txt",
+    "source_pdf": "Technical-Writing-1592951279.pdf",
+    "pdf_pages_1_based": [
+      193,
+      194,
+      195
+    ],
+    "printed_pages": [
+      185,
+      186,
+      187
+    ],
+    "url": "https://openoregon.pressbooks.pub/technicalwriting/chapter/12-1-preparation/",
+    "authors": [
+      "Megan Savage"
+    ],
+    "publisher": "Open Oregon Educational Resources",
+    "license": "CC BY 4.0 (chapter-specific statement; excluded third-party sample resumes and action-verb table)",
+    "word_count": 682,
+    "sha256": "6084e2584284fb2eb8a1683b1a5ddb189c36c4169dcf7650ff460165543ced99",
+    "split": "unassigned",
+    "context": "US-oriented educational guidance; selected excerpts; recommendations may differ from TRU"
+  },
+  {
+    "document_id": "oregon_resume_formats",
+    "path": "data/cpt/documents/oregon_resume_formats.txt",
+    "source_pdf": "Technical-Writing-1592951279.pdf",
+    "pdf_pages_1_based": [
+      197,
+      198,
+      199,
+      200,
+      201
+    ],
+    "printed_pages": [
+      189,
+      190,
+      191,
+      192,
+      193
+    ],
+    "url": "https://openoregon.pressbooks.pub/technicalwriting/chapter/y-2-resumes/",
+    "authors": [
+      "Megan Savage"
+    ],
+    "publisher": "Open Oregon Educational Resources",
+    "license": "CC BY 4.0 (chapter-specific statement; excluded third-party sample resumes and action-verb table)",
+    "word_count": 480,
+    "sha256": "8e9b88dbc14b5ef0c253bb62ec5f9ef4ecfd26f7f4ce34c5c29255d3263a312a",
+    "split": "unassigned",
+    "context": "US-oriented educational guidance; selected excerpts; recommendations may differ from TRU"
+  },
+  {
+    "document_id": "oregon_resume_sections_and_guidelines",
+    "path": "data/cpt/documents/oregon_resume_sections_and_guidelines.txt",
+    "source_pdf": "Technical-Writing-1592951279.pdf",
+    "pdf_pages_1_based": [
+      203,
+      204,
+      205,
+      206,
+      207,
+      208
+    ],
+    "printed_pages": [
+      195,
+      196,
+      197,
+      198,
+      199,
+      200
+    ],
+    "url": "https://openoregon.pressbooks.pub/technicalwriting/chapter/12-3-resume-sections-and-guidelines/",
+    "authors": [
+      "Megan Savage"
+    ],
+    "publisher": "Open Oregon Educational Resources",
+    "license": "CC BY 4.0 (chapter-specific statement; excluded third-party sample resumes and action-verb table)",
+    "word_count": 1740,
+    "sha256": "d5a27b16eb965ca2ecbbdd9f3c6a69e7d68ecba8f5dadafd88e102a8ce8175c3",
+    "split": "unassigned",
+    "context": "US-oriented educational guidance; selected excerpts; recommendations may differ from TRU"
   }
 ]

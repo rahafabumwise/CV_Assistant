@@ -1,25 +1,26 @@
-# CV assistant continued-pretraining starter data
+# CV assistant continued-pretraining data
 
-Current collection: eight UTF-8 text documents, 3,066 words by whitespace count. This is a small starter corpus, not a complete Phase 2 submission. Token count must be measured with your chosen tokenizer.
+11 cleaned text documents from TRU Resume Catalogue and selected Open Oregon Technical Writing sections. Total: 5,968 whitespace-counted words. Token counts require the chosen tokenizer. This remains a small educational experiment, not a production-ready assistant.
 
-## Update your existing repository
+## Files
 
-This update ZIP contains five NEW text files and replacement documentation. It relies on the three original text files already in your repository.
+- data/cpt/documents/: eight original TRU texts plus three new Oregon texts.
+- tests/test_questions.csv: existing 30 evaluation questions; unchanged by this update.
+- source_manifest.json: source paths, PDF pages, licences, word counts and checksums for all 11 documents.
+- ATTRIBUTION.md: credit and licence details.
+- DATA_REVIEW.md: selection decisions, conflicting recommendations and limitations.
+- MISSING_CONTENT.md: original TRU interactive-content collection status.
 
-1. Extract this ZIP.
-2. Open your repository root on GitHub, select Add file > Upload files, and drag in the contents of this folder (not its outer folder or ZIP).
-3. Upload the data folder and all .md/.json files. The matching documentation paths replace the earlier starter documents. The three existing .txt files stay in place; the five new ones are added.
-4. Commit with: Add five cleaned CV guidance transcripts.
-5. Check data/cpt/documents/ contains eight .txt files.
+## Install this update
 
-## Next steps
+This ZIP is an addition to your existing repository, not a complete replacement. Upload its three .txt files directly inside the EXISTING data/cpt/documents folder. Upload README.md, ATTRIBUTION.md, DATA_REVIEW.md and source_manifest.json at the repository root to replace those files. Keep all eight earlier .txt files, MISSING_CONTENT.md and tests/test_questions.csv.
 
-Review DATA_REVIEW.md for source limitations. Prepare independent evaluation questions before looking at model outputs. Finalize the training corpus, then split approximately 90/10 by whole document, avoiding near-duplicate explanations across splits. No split is assigned yet. Use only data/cpt/documents/*.txt for continued pretraining; documentation and metadata are not training text.
+## Continue in Colab
 
-SFT needs a separate 300–1,000 checked Q&A dataset, excluding test questions and paraphrases. It is not included in this package. This small collection can support a pipeline smoke test; evaluate coverage and diversity before deciding whether to add another source.
+Refresh the repository using git pull before rerunning file discovery and token counting. The earlier split.json is provisional and stale; do not use it for training until it has been regenerated and checked. Only tokenize .txt files in data/cpt/documents. Do not train on documentation or test questions.
 
-## Provenance
+Choose and record a whole-document split after checking cross-source repetition. Use approximately 90/10 and report actual document and token proportions. Prepare 300–1,000 separate checked SFT pairs, with test questions and paraphrases excluded. No training scripts, final split or SFT pairs are included yet.
 
-Source book: https://resumecatalogue.pressbooks.tru.ca/
-Transcript chapter: https://resumecatalogue.pressbooks.tru.ca/chapter/resume-sections-explained/
-Full credit and licence notes: ATTRIBUTION.md. Document paths, page numbers, word counts and hashes: source_manifest.json.
+## Scope
+
+English first-CV guidance for students and recent graduates. Sources use Canadian and US conventions; answers must not treat their recommendations as universal country-specific rules. See DATA_REVIEW.md.
