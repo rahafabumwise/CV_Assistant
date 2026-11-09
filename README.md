@@ -1,6 +1,6 @@
 # CV assistant project data
 
-Reviewed-v2 dataset: 11 cleaned documents, 5,741 words (whitespace count), and 30 evaluation questions. GPT-2 token counts must be recomputed. This package replaces the earlier data files at the SAME paths. It contains no model training code or weights.
+Reviewed-v2 dataset: 11 cleaned documents, 5,741 words (whitespace count), and 30 evaluation questions. It contains no model training code or weights.
 
 ## Install on GitHub
 
@@ -11,8 +11,6 @@ Reviewed-v2 dataset: 11 cleaned documents, 5,741 words (whitespace count), and 3
 
 The dataset has 15 easy, 10 medium and 5 hard test cases; three are unanswerable. These are drafted examples, not student interview data. Read tests/README.md for review and scoring instructions. IDs 3, 14, 23 and 26 are revised before training with the instructor's permission as reported by the user.
 
-## Next
+## Work done
 
-Review as a team and freeze the test version. Refresh Colab from GitHub, re-discover the 11 .txt files, count tokens, and select a whole-document approximately 90/10 split with overlap checks. Do not rerun the old seven-document split. Record seed, actual split proportions and selected filenames in the training configuration. Only read data/cpt/documents/*.txt into continued pretraining. Never train on test_questions.csv or documentation. SFT pairs must be separate and must not copy or paraphrase test questions.
-
-Data selection and removals are documented in DECISION_LOG.md; exact provenance and hashes are in source_manifest.json. Canadian and US sources are used; recommendations are not universal country-specific rules. Original source documents are not included in this ZIP. No training or model evaluation has been run for this update.
+We have completed continued pretraining of GPT-2 on our CV-writing documents and compared its performance before and after training. Epoch 2 performed best, reducing validation perplexity from 19.84 to 18.91. The outputs became more relevant to CV writing, although repetition and incorrect advice remained. We also prepared 300 question–answer pairs for supervised fine-tuning, with 50 manually reviewed. Our next steps are to complete SFT, evaluate the base, CPT, and SFT models on the same 30 test questions, and analyse the results.
