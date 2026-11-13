@@ -1,0 +1,498 @@
+[
+  {
+    "document_id": "tru_modern_resume_formatting",
+    "path": "data/cpt/documents/tru_modern_resume_formatting.txt",
+    "source_pdf": "ResumeCatalogue.pdf",
+    "pdf_pages_1_based": [
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "printed_pages": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "url": "https://resumecatalogue.pressbooks.tru.ca/chapter/resume-formatting/",
+    "authors": [
+      "Noah Arney",
+      "Leanne Mihalicz",
+      "Sarah Gibson"
+    ],
+    "publisher": "Thompson Rivers University",
+    "license": "CC BY-NC-SA 4.0 except where otherwise noted",
+    "word_count": 1022,
+    "sha256": "6b56ab9847da43974275065ce884181ba3e97274c849e302916023041ec51c70",
+    "split": "train",
+    "context": "Canadian resume guidance; not universal country-specific rules",
+    "dataset_version": "reviewed-v2",
+    "review_note": "Selected source text; documented omissions in DECISION_LOG.md. Source-specific advice is not universal."
+  },
+  {
+    "document_id": "tru_action_verbs",
+    "path": "data/cpt/documents/tru_action_verbs.txt",
+    "source_pdf": "ResumeCatalogue.pdf",
+    "pdf_pages_1_based": [
+      34,
+      35
+    ],
+    "printed_pages": [
+      28,
+      29
+    ],
+    "url": "https://resumecatalogue.pressbooks.tru.ca/chapter/action-verbs/",
+    "authors": [
+      "Noah Arney",
+      "Leanne Mihalicz",
+      "Sarah Gibson"
+    ],
+    "publisher": "Thompson Rivers University",
+    "license": "CC BY-NC-SA 4.0 except where otherwise noted",
+    "word_count": 176,
+    "sha256": "49961d03cb699a7ea80164ef3e1390bdd0890001581271bf4e63d57fe44d27e4",
+    "split": "train",
+    "context": "Canadian resume guidance; not universal country-specific rules",
+    "dataset_version": "reviewed-v2",
+    "review_note": "Selected source text; documented omissions in DECISION_LOG.md. Source-specific advice is not universal."
+  },
+  {
+    "document_id": "tru_transferable_skills",
+    "path": "data/cpt/documents/tru_transferable_skills.txt",
+    "source_pdf": "ResumeCatalogue.pdf",
+    "pdf_pages_1_based": [
+      51,
+      52,
+      53,
+      54
+    ],
+    "printed_pages": [
+      45,
+      46,
+      47,
+      48
+    ],
+    "url": "https://resumecatalogue.pressbooks.tru.ca/chapter/discover-your-transferable-skills/",
+    "authors": [
+      "Noah Arney",
+      "Leanne Mihalicz",
+      "Sarah Gibson"
+    ],
+    "publisher": "Thompson Rivers University",
+    "license": "CC BY-NC-SA 4.0 except where otherwise noted",
+    "word_count": 355,
+    "sha256": "df0de22d1c6e559dad4fd5d3e2d7c57114c2a73ba81727e86444c1cecd2b62a3",
+    "split": "train",
+    "context": "Canadian resume guidance; not universal country-specific rules",
+    "dataset_version": "reviewed-v2",
+    "review_note": "Selected source text; documented omissions in DECISION_LOG.md. Source-specific advice is not universal."
+  },
+  {
+    "document_id": "tru_overall_format",
+    "path": "data/cpt/documents/tru_overall_format.txt",
+    "source_pdf": "Overall-Format.pdf",
+    "pdf_pages_1_based": [
+      1,
+      2
+    ],
+    "url": "http://resumecatalogue.pressbooks.tru.ca/wp-content/uploads/sites/125/2026/03/Overall-Format.pdf",
+    "parent_url": "https://resumecatalogue.pressbooks.tru.ca/chapter/resume-sections-explained/",
+    "publisher": "Thompson Rivers University",
+    "license": "Parent book: CC BY-NC-SA 4.0 except where otherwise noted; transcript has no separate licence statement",
+    "word_count": 449,
+    "sha256": "5a8e222fdf7277837b2a4e25b69006c14064db5f8a68589ed96933fa167aad1f",
+    "split": "train",
+    "context": "Canadian resume guidance; transcript wording preserved",
+    "dataset_version": "reviewed-v2",
+    "review_note": "Selected source text; documented omissions in DECISION_LOG.md. Source-specific advice is not universal."
+  },
+  {
+    "document_id": "tru_education_training_and_certificates",
+    "path": "data/cpt/documents/tru_education_training_and_certificates.txt",
+    "source_pdf": "Education-Training-and-Certificates.pdf",
+    "pdf_pages_1_based": [
+      1,
+      2
+    ],
+    "url": "http://resumecatalogue.pressbooks.tru.ca/wp-content/uploads/sites/125/2026/03/Education-Training-and-Certificates.pdf",
+    "parent_url": "https://resumecatalogue.pressbooks.tru.ca/chapter/resume-sections-explained/",
+    "publisher": "Thompson Rivers University",
+    "license": "Parent book: CC BY-NC-SA 4.0 except where otherwise noted; transcript has no separate licence statement",
+    "word_count": 370,
+    "sha256": "b8240dd10cab74e5fd565af91697bb1f90f68b0d54106c3dbe147ee4bf85a45c",
+    "split": "train",
+    "context": "Canadian resume guidance; transcript wording preserved",
+    "dataset_version": "reviewed-v2",
+    "review_note": "Selected source text; documented omissions in DECISION_LOG.md. Source-specific advice is not universal."
+  },
+  {
+    "document_id": "tru_hobbies_interest",
+    "path": "data/cpt/documents/tru_hobbies_interest.txt",
+    "source_pdf": "Hobbies-Interest.pdf",
+    "pdf_pages_1_based": [
+      1
+    ],
+    "url": "http://resumecatalogue.pressbooks.tru.ca/wp-content/uploads/sites/125/2026/03/Hobbies-Interest.pdf",
+    "parent_url": "https://resumecatalogue.pressbooks.tru.ca/chapter/resume-sections-explained/",
+    "publisher": "Thompson Rivers University",
+    "license": "Parent book: CC BY-NC-SA 4.0 except where otherwise noted; transcript has no separate licence statement",
+    "word_count": 114,
+    "sha256": "e35f470e9d9db99c65975ee8686c4397298cfd5fe68ee5291fd11da034878479",
+    "split": "train",
+    "context": "Canadian resume guidance; transcript wording preserved",
+    "dataset_version": "reviewed-v2",
+    "review_note": "Selected source text; documented omissions in DECISION_LOG.md. Source-specific advice is not universal."
+  },
+  {
+    "document_id": "tru_volunteering_community_involvement",
+    "path": "data/cpt/documents/tru_volunteering_community_involvement.txt",
+    "source_pdf": "Volunteering-Community-Involvement.pdf",
+    "pdf_pages_1_based": [
+      1
+    ],
+    "url": "http://resumecatalogue.pressbooks.tru.ca/wp-content/uploads/sites/125/2026/03/Volunteering-Community-Involvement.pdf",
+    "parent_url": "https://resumecatalogue.pressbooks.tru.ca/chapter/resume-sections-explained/",
+    "publisher": "Thompson Rivers University",
+    "license": "Parent book: CC BY-NC-SA 4.0 except where otherwise noted; transcript has no separate licence statement",
+    "word_count": 183,
+    "sha256": "7356a1fd3ea30ac20fd0da56f6c6f62a4300263d484b81e178c88e665d18d224",
+    "split": "train",
+    "context": "Canadian resume guidance; transcript wording preserved",
+    "dataset_version": "reviewed-v2",
+    "review_note": "Selected source text; documented omissions in DECISION_LOG.md. Source-specific advice is not universal."
+  },
+  {
+    "document_id": "tru_employment_or_work_experience",
+    "path": "data/cpt/documents/tru_employment_or_work_experience.txt",
+    "source_pdf": "Employment-or-Work-Experience.pdf",
+    "pdf_pages_1_based": [
+      1,
+      2
+    ],
+    "url": "http://resumecatalogue.pressbooks.tru.ca/wp-content/uploads/sites/125/2026/03/Employment-or-Work-Experience.pdf",
+    "parent_url": "https://resumecatalogue.pressbooks.tru.ca/chapter/resume-sections-explained/",
+    "publisher": "Thompson Rivers University",
+    "license": "Parent book: CC BY-NC-SA 4.0 except where otherwise noted; transcript has no separate licence statement",
+    "word_count": 350,
+    "sha256": "053a924602a5109dacef110e15d64e5109b030296e082505af7461f92fd8da7b",
+    "split": "train",
+    "context": "Canadian resume guidance; transcript wording preserved",
+    "dataset_version": "reviewed-v2",
+    "review_note": "Selected source text; documented omissions in DECISION_LOG.md. Source-specific advice is not universal."
+  },
+  {
+    "document_id": "oregon_cv_preparation",
+    "path": "data/cpt/documents/oregon_cv_preparation.txt",
+    "source_pdf": "Technical-Writing-1592951279.pdf",
+    "pdf_pages_1_based": [
+      193,
+      194,
+      195
+    ],
+    "printed_pages": [
+      185,
+      186,
+      187
+    ],
+    "url": "https://openoregon.pressbooks.pub/technicalwriting/chapter/12-1-preparation/",
+    "authors": [
+      "Megan Savage"
+    ],
+    "publisher": "Open Oregon Educational Resources",
+    "license": "CC BY 4.0 (chapter-specific statement; excluded third-party sample resumes and action-verb table)",
+    "word_count": 682,
+    "sha256": "6084e2584284fb2eb8a1683b1a5ddb189c36c4169dcf7650ff460165543ced99",
+    "split": "validation",
+    "context": "US-oriented educational guidance; selected excerpts; recommendations may differ from TRU",
+    "dataset_version": "reviewed-v2",
+    "review_note": "Selected source text; documented omissions in DECISION_LOG.md. Source-specific advice is not universal."
+  },
+  {
+    "document_id": "oregon_resume_formats",
+    "path": "data/cpt/documents/oregon_resume_formats.txt",
+    "source_pdf": "Technical-Writing-1592951279.pdf",
+    "pdf_pages_1_based": [
+      197,
+      198,
+      199,
+      200,
+      201
+    ],
+    "printed_pages": [
+      189,
+      190,
+      191,
+      192,
+      193
+    ],
+    "url": "https://openoregon.pressbooks.pub/technicalwriting/chapter/y-2-resumes/",
+    "authors": [
+      "Megan Savage"
+    ],
+    "publisher": "Open Oregon Educational Resources",
+    "license": "CC BY 4.0 (chapter-specific statement; excluded third-party sample resumes and action-verb table)",
+    "word_count": 437,
+    "sha256": "631e9ddfdadbadee6f0be41e00d8881a433492981caa63bec23285970fe683fc",
+    "split": "train",
+    "context": "US-oriented educational guidance; selected excerpts; recommendations may differ from TRU",
+    "dataset_version": "reviewed-v2",
+    "review_note": "Selected source text; documented omissions in DECISION_LOG.md. Source-specific advice is not universal."
+  },
+  {
+    "document_id": "oregon_resume_sections_and_guidelines",
+    "path": "data/cpt/documents/oregon_resume_sections_and_guidelines.txt",
+    "source_pdf": "Technical-Writing-1592951279.pdf",
+    "pdf_pages_1_based": [
+      203,
+      204,
+      205,
+      206,
+      207,
+      208
+    ],
+    "printed_pages": [
+      195,
+      196,
+      197,
+      198,
+      199,
+      200
+    ],
+    "url": "https://openoregon.pressbooks.pub/technicalwriting/chapter/12-3-resume-sections-and-guidelines/",
+    "authors": [
+      "Megan Savage"
+    ],
+    "publisher": "Open Oregon Educational Resources",
+    "license": "CC BY 4.0 (chapter-specific statement; excluded third-party sample resumes and action-verb table)",
+    "word_count": 1603,
+    "sha256": "6cb86a492161bf56dcd387fd0e243dc4b90d330774bb3eb6f9008107e5345cdf",
+    "split": "train",
+    "context": "US-oriented educational guidance; selected excerpts; recommendations may differ from TRU",
+    "dataset_version": "reviewed-v2",
+    "review_note": "Selected source text; documented omissions in DECISION_LOG.md. Source-specific advice is not universal."
+  },
+  {
+    "document_id": "openstax_cs_resumes_and_online_profiles",
+    "path": "data/cpt/documents/openstax_cs_resumes_and_online_profiles.txt",
+    "source_book": "College Success 2e",
+    "source_module": "osbooks-college-success/modules/m79902 (Your Map to Success: The Career Planning Cycle)",
+    "url": "https://openstax.org/details/books/college-success-2e",
+    "authors": [
+      "OpenStax contributing authors (listed on the book page)"
+    ],
+    "publisher": "OpenStax, Rice University",
+    "license": "CC BY-NC-SA 4.0 (OpenStax; source repository github.com/openstax)",
+    "sections_used": [
+      "WHAT TO DO TO GET READY",
+      "RESUMES AND PROFILES",
+      "SOCIAL MEDIA AND ONLINE ACTIVITY"
+    ],
+    "word_count": 1258,
+    "sha256": "54c2947fe276e84a007bf6196d38b7b4058d43dfb6d4a75dcdbedafeafd75a30",
+    "context": "US college/career guidance; not universal country-specific rules",
+    "dataset_version": "reviewed-v3",
+    "edits": [
+      "Removed a fixed page-length rule ('one-page summary (two, if you are a more experienced person)') for consistency with earlier length decisions.",
+      "Removed a cross-reference to a later chapter section.",
+      "Removed a US-specific legal paragraph about protected characteristics in hiring (outside CV-writing scope; country-specific).",
+      "Fixed a missing full stop between two list sentences."
+    ],
+    "split": "train"
+  },
+  {
+    "document_id": "openstax_cs_gaining_experience",
+    "path": "data/cpt/documents/openstax_cs_gaining_experience.txt",
+    "source_book": "College Success 2e",
+    "source_module": "osbooks-college-success/modules/m79902 (Your Map to Success: The Career Planning Cycle)",
+    "url": "https://openstax.org/details/books/college-success-2e",
+    "authors": [
+      "OpenStax contributing authors (listed on the book page)"
+    ],
+    "publisher": "OpenStax, Rice University",
+    "license": "CC BY-NC-SA 4.0 (OpenStax; source repository github.com/openstax)",
+    "sections_used": [
+      "TRY THINGS OUT",
+      "COMMUNITY INVOLVEMENT, VOLUNTEERING, AND CLUBS",
+      "INTERNSHIPS AND RELATED EXPERIENCES"
+    ],
+    "word_count": 913,
+    "sha256": "73d5f1816d0137eaa54fb501ad622c3f84eebbd344256eb59446b27fee3989ae",
+    "context": "US college/career guidance; not universal country-specific rules",
+    "dataset_version": "reviewed-v3",
+    "edits": [
+      "Removed an interactive web-search activity and a cross-reference to a table in another chapter."
+    ],
+    "split": "train"
+  },
+  {
+    "document_id": "openstax_cs_building_transferable_skills",
+    "path": "data/cpt/documents/openstax_cs_building_transferable_skills.txt",
+    "source_book": "College Success 2e",
+    "source_module": "osbooks-college-success/modules/m79902 (Your Map to Success: The Career Planning Cycle)",
+    "url": "https://openstax.org/details/books/college-success-2e",
+    "authors": [
+      "OpenStax contributing authors (listed on the book page)"
+    ],
+    "publisher": "OpenStax, Rice University",
+    "license": "CC BY-NC-SA 4.0 (OpenStax; source repository github.com/openstax)",
+    "sections_used": [
+      "TRANSFERABLE SKILLS"
+    ],
+    "word_count": 490,
+    "sha256": "b750230d163eb387ad494f110849932829b01f5e77d3062b6726353e62c2faee",
+    "context": "US college/career guidance; not universal country-specific rules",
+    "dataset_version": "reviewed-v3",
+    "edits": [
+      "Removed the closing interview-answer advice (strengths and weaknesses), which is outside CV-writing scope and was cut off in the source extract."
+    ],
+    "split": "train"
+  },
+  {
+    "document_id": "openstax_cs_knowing_your_strengths",
+    "path": "data/cpt/documents/openstax_cs_knowing_your_strengths.txt",
+    "source_book": "College Success 2e",
+    "source_module": "osbooks-college-success/modules/m79902 (Your Map to Success: The Career Planning Cycle)",
+    "url": "https://openstax.org/details/books/college-success-2e",
+    "authors": [
+      "OpenStax contributing authors (listed on the book page)"
+    ],
+    "publisher": "OpenStax, Rice University",
+    "license": "CC BY-NC-SA 4.0 (OpenStax; source repository github.com/openstax)",
+    "sections_used": [
+      "LEARN ABOUT YOURSELF",
+      "SELF-REFLECTION",
+      "ENLIST OTHERS"
+    ],
+    "word_count": 1099,
+    "sha256": "5c222526d51cf7725dea260240f8c392380a2eb7ea09c550595e4fa48652838f",
+    "context": "US college/career guidance; not universal country-specific rules",
+    "dataset_version": "reviewed-v3",
+    "edits": [
+      "Omitted the formal and informal assessment-test subsections (named commercial tests)."
+    ],
+    "split": "train"
+  },
+  {
+    "document_id": "openstax_cs_portfolio_and_recommendations",
+    "path": "data/cpt/documents/openstax_cs_portfolio_and_recommendations.txt",
+    "source_book": "College Success 2e",
+    "source_module": "osbooks-college-success/modules/m79902 (Your Map to Success: The Career Planning Cycle)",
+    "url": "https://openstax.org/details/books/college-success-2e",
+    "authors": [
+      "OpenStax contributing authors (listed on the book page)"
+    ],
+    "publisher": "OpenStax, Rice University",
+    "license": "CC BY-NC-SA 4.0 (OpenStax; source repository github.com/openstax)",
+    "sections_used": [
+      "BUILDING YOUR PORTFOLIO",
+      "LETTERS OF RECOMMENDATION"
+    ],
+    "word_count": 846,
+    "sha256": "92ccf295f67a3daf8f175eff8db8e674a3aef16092655b72e7d8eef3fbf65f2f",
+    "context": "US college/career guidance; not universal country-specific rules",
+    "dataset_version": "reviewed-v3",
+    "edits": [],
+    "split": "validation"
+  },
+  {
+    "document_id": "openstax_ib_self_assessment_and_employer_needs",
+    "path": "data/cpt/documents/openstax_ib_self_assessment_and_employer_needs.txt",
+    "source_book": "Introduction to Business 2e",
+    "source_module": "osbooks-introduction-business/modules/m67788 (Get Your Career Off on the Right Track)",
+    "url": "https://openstax.org/details/books/introduction-business-2e",
+    "authors": [
+      "OpenStax contributing authors (listed on the book page)"
+    ],
+    "publisher": "OpenStax, Rice University",
+    "license": "CC BY-NC-SA 4.0 (OpenStax; source repository github.com/openstax)",
+    "sections_used": [
+      "TAKE A GOOD LOOK AT YOURSELF",
+      "UNDERSTAND WHAT EMPLOYERS WANT"
+    ],
+    "word_count": 707,
+    "sha256": "975f046308454cc07198280b1ff30631607630e5cdfd587c65710718315ab7cb",
+    "context": "US college/career guidance; not universal country-specific rules",
+    "dataset_version": "reviewed-v3",
+    "edits": [
+      "Removed a reference to a quiz figure and a paragraph naming third-party personality tests and their URLs."
+    ],
+    "split": "train"
+  },
+  {
+    "document_id": "openstax_ib_resume_keywords_and_online_presence",
+    "path": "data/cpt/documents/openstax_ib_resume_keywords_and_online_presence.txt",
+    "source_book": "Introduction to Business 2e",
+    "source_module": "osbooks-introduction-business/modules/m67788 (Get Your Career Off on the Right Track)",
+    "url": "https://openstax.org/details/books/introduction-business-2e",
+    "authors": [
+      "OpenStax contributing authors (listed on the book page)"
+    ],
+    "publisher": "OpenStax, Rice University",
+    "license": "CC BY-NC-SA 4.0 (OpenStax; source repository github.com/openstax)",
+    "sections_used": [
+      "YOUR ONLINE PRESENCE",
+      "GETTING YOUR RÉSUMÉ INTO THE SHORT PILE"
+    ],
+    "word_count": 675,
+    "sha256": "2a48bd671aaf6c76999d4ca8761178ea4a99112df9052ec9809ea7b83496b51a",
+    "context": "US college/career guidance; not universal country-specific rules",
+    "dataset_version": "reviewed-v3",
+    "edits": [
+      "Removed an uncited statistic about employer social-media checks."
+    ],
+    "split": "train"
+  },
+  {
+    "document_id": "openstax_wg_persuasive_resume_and_career_goal",
+    "path": "data/cpt/documents/openstax_wg_persuasive_resume_and_career_goal.txt",
+    "source_book": "Writing Guide with Handbook",
+    "source_module": "osbooks-writing-guide/modules/m00096 (Spotlight on … Business and Law)",
+    "url": "https://openstax.org/details/books/writing-guide",
+    "authors": [
+      "OpenStax contributing authors (listed on the book page)"
+    ],
+    "publisher": "OpenStax, Rice University",
+    "license": "CC BY-NC-SA 4.0 (OpenStax; source repository github.com/openstax)",
+    "sections_used": [
+      "RHETORIC IN BUSINESS",
+      "RÉSUMÉS AS SELLING TOOLS"
+    ],
+    "word_count": 416,
+    "sha256": "70cc56ca015830f09a1975574949a606d37b2a5dfacc8bb624a57759f058579b",
+    "context": "US college/career guidance; not universal country-specific rules",
+    "dataset_version": "reviewed-v3",
+    "edits": [
+      "Excluded the application-letter (cover-letter) paragraphs and sample letters; cover letters are outside the selected corpus scope.",
+      "Reworded 'A key element in any résumé ... is a statement of your career goal' as a conditional, consistent with the earlier decision not to state universal objective-statement rules.",
+      "Excluded the sample résumé image."
+    ],
+    "split": "train"
+  },
+  {
+    "document_id": "openstax_wss_resume_presentation_and_letterhead",
+    "path": "data/cpt/documents/openstax_wss_resume_presentation_and_letterhead.txt",
+    "source_book": "Workplace Software and Skills",
+    "source_module": "osbooks-workplace-software-skills/modules/m00057 (Creating Different Document Types in Microsoft Word)",
+    "url": "https://openstax.org/details/books/workplace-software-skills",
+    "authors": [
+      "OpenStax contributing authors (listed on the book page)"
+    ],
+    "publisher": "OpenStax, Rice University",
+    "license": "CC BY-NC-SA 4.0 (OpenStax; source repository github.com/openstax)",
+    "sections_used": [
+      "RÉSUMÉS"
+    ],
+    "word_count": 324,
+    "sha256": "7711e236ad155dd6bc8fdfe41722454bb0fa17325a93abc624044af3eaef28bb",
+    "context": "US college/career guidance; not universal country-specific rules",
+    "dataset_version": "reviewed-v3",
+    "edits": [
+      "Kept the résumé paragraphs only; excluded cover-letter structure, Word template steps and figure references.",
+      "Removed a cross-reference to an earlier chapter section."
+    ],
+    "split": "train"
+  }
+]
