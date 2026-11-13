@@ -1,10 +1,10 @@
 {
-  "total": 300,
-  "train": 270,
-  "validation": 30,
+  "total": 335,
+  "train": 301,
+  "validation": 34,
   "human_accepted": 50,
-  "ai_checked_without_human_review": 250,
-  "project_policy_examples": 30,
+  "ai_checked_without_human_review": 285,
+  "project_policy_examples": 45,
   "test_question_count": 30,
   "test_file_sha256": "d59246856cc915107dd43a7add3cf4b23678bddd7c1a8ff2f8853f616b13b81b",
   "exact_question_overlap_with_test": 0,
@@ -61,7 +61,25 @@
     "clarify_missing_text": 7,
     "clarify_missing_facts": 5,
     "clarify_missing_material": 3,
-    "refusal_non_cv": 15
+    "refusal_non_cv": 15,
+    "online_profile_length": 1,
+    "online_profile_vs_cv": 1,
+    "online_profile_connections": 1,
+    "social_media_review": 1,
+    "online_profile_photo": 1,
+    "upload_readability": 1,
+    "letterhead_consistency": 1,
+    "military_service": 1,
+    "identify_strengths": 1,
+    "ksa_meaning": 1,
+    "experience_journal": 1,
+    "avoid_generic_cv": 1,
+    "keyword_type": 1,
+    "technical_skill_list": 1,
+    "outside_review": 1,
+    "creative_field_portfolio": 1,
+    "career_goal_statement": 4,
+    "decline_unknown_fact": 15
   },
   "validation_groups": [
     "concrete_tools",
@@ -150,8 +168,11 @@
   "cross_split_question_similarity_at_least_075": [],
   "limitations": [
     "Lexical checks cannot establish semantic independence.",
-    "Repeated skill practice is intentionally grouped; 300 examples do not represent 300 independent CV rules.",
+    "Repeated skill practice is intentionally grouped; 335 examples do not represent 335 independent CV rules.",
     "The set is dominated by editing and factual wording because broad introductory questions already occur in the frozen test set.",
     "Only the first 50 pairs have user-confirmed human review."
-  ]
+  ],
+  "dataset_version": "reviewed-v3",
+  "shared_6gram_or_8gram_with_test": 0,
+  "reviewed_v3_changes": "Added sft_301-sft_335: 15 'decline_unknown_fact' policy pairs (employer-specific, personal or future facts the assistant cannot know; none paraphrases test IDs 28-30), 16 training pairs from the new OpenStax training documents, and a held-out validation family 'career_goal_statement' (4 pairs). No pair uses the held-out CPT documents."
 }
