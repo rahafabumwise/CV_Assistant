@@ -1,0 +1,74 @@
+# CV Assistant — Phase 2 configuration.
+# Every script reads this file. Change settings here, not inside the scripts.
+# Any value can be overridden for one run on the command line, e.g.:
+#   python train_cpt.py --set cpt.epochs=1
+
+seed: 42
+
+# The three models compared in score.py, all called through the same function.
+# "auto" = use the checkpoint selected by the latest train_cpt.py / train_sft.py run
+# (read from results/cpt_metrics.json or results/sft_metrics.json, or from the
+# copy on Google Drive if the Colab session was reset).
+# You can also put a folder path or a Hugging Face Hub repo id here.
+models:
+  base: openai-community/gpt2
+  cpt: auto
+  sft: auto
+
+paths:
+  cpt_split: data/cpt/split.json              # whole-document split: 18 train / 2 held out
+  sft_train: data/sft/train.jsonl             # 301 pairs
+  sft_validation: data/sft/validation.jsonl   # 34 pairs (6 held-out task families)
+  test_questions: tests/test_questions.csv    # the 30 Phase 1 questions — never trained on
+  results_dir: results                        # small outputs that ARE committed to Git
+  # Checkpoints are large and are NOT committed to Git. In Colab they go to Google Drive.
+  # Each script also copies its results here (<output_dir>/results) so nothing is lost
+  # if Colab disconnects.
+  output_dir: /content/drive/MyDrive/CV_Assistant/experiments
+
+# Step 1: continued pretraining (next-token objective on data/cpt/documents)
+cpt:
+  block_size: 512        # sequences of 512 tokens
+  epochs: 3              # 1–3 passes; early stopping may end sooner
+  batch_size: 2
+  learning_rate: 5.0e-5
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  eval_context: 512      # held-out perplexity: sliding window of 512 tokens
+  eval_stride: 256       # ... moved 256 tokens at a time; each token scored once
+  early_stopping: true   # stop when held-out loss rises compared with the previous epoch
+  completion_prompts:    # the same 5 prompts before and after training
+    - "When writing your first CV,"
+    - "An effective education section"
+    - "To describe your work experience,"
+    - "When including volunteer experience on a CV,"
+    - "A clearly formatted CV"
+  completion_max_new_tokens: 80
+
+# Step 2: supervised fine-tuning (starts from models.cpt)
+sft:
+  epochs: 3              # 2–3 passes; the epoch with the lowest validation loss is kept
+  batch_size: 8
+  learning_rate: 1.0e-4  # higher than CPT: the 3 new template tokens start untrained
+  weight_decay: 0.01
+  warmup_ratio: 0.05
+  max_grad_norm: 1.0
+  max_length: 256        # the longest pair is far shorter, so nothing is truncated
+
+# One chat template, used in train_sft.py AND score.py. Added as special tokens.
+chat_template:
+  user: "<|user|>"
+  assistant: "<|assistant|>"
+  end: "<|end|>"
+
+# Scoring. Test ids whose expected answer is short and exact (a number, name, yes/no)
+# are auto-scored by exact match after normalising case, punctuation and spaces.
+# All 30 expected answers are explanations, so every answer is graded by hand (1 / 0.5 / 0).
+scoring:
+  exact_match_ids: []
+
+# Identical generation settings for all three models in score.py
+generation:
+  do_sample: false       # greedy decoding (temperature 0)
+  num_beams: 1
+  max_new_tokens: 128    # same maximum answer length for every model

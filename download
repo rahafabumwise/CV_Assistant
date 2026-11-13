@@ -1,0 +1,14 @@
+# secrets
+.env
+# model checkpoints and big files never go in Git
+outputs/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+# python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

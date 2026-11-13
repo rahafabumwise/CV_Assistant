@@ -14,7 +14,7 @@ Prepared from the user-supplied PDF on 2026-11-08. The PDF itself is not redistr
 
 ## Added transcripts
 
-Five user-supplied transcripts linked by the book's Resume Sections Explained chapter are now included. They carry no separate author or licence statement in their visible text; attribution follows the parent book, subject to its exceptions. Removed timestamps, narrator labels and page furniture; retained all narration words. Source PDF names and URLs are in source_manifest.json.
+Five user-supplied transcripts linked by the book's Resume Sections Explained chapter are now included. They carry no separate author or licence statement in their visible text; attribution follows the parent book, subject to its exceptions. Removed timestamps, narrator labels and page furniture; retained all narration words. Source PDF names and URLs are in data/source_manifest.json.
 
 ## Open Oregon additions
 
@@ -26,3 +26,18 @@ Changes: extracted selected CV-relevant prose; removed page furniture, sample CV
 ## Reviewed-v2 changes
 
 Additional selected-text omissions are itemized in DECISION_LOG.md. All original source credits and document-specific licences remain applicable. This is an edited educational corpus; it is not a verbatim reproduction of every chapter. The original PDFs remain unchanged.
+
+## OpenStax textbooks (added in reviewed-v3)
+
+Nine documents (`data/cpt/documents/openstax_*.txt`) are adapted from OpenStax textbooks, Rice University, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/). Text was taken from OpenStax's public source repositories (github.com/openstax). Changes: selected sections only; figures, tables, footnotes, activities and cover-letter material removed; a few sentences shortened or made conditional. Every change is listed per document in `data/source_manifest.json` (field `edits`).
+
+- *College Success* 2e, chapter "Your Map to Success: The Career Planning Cycle". https://openstax.org/details/books/college-success-2e
+- *Introduction to Business* 2e, appendix "Get Your Career Off on the Right Track". https://openstax.org/details/books/introduction-business-2e
+- *Writing Guide with Handbook*, "Spotlight on … Business and Law". https://openstax.org/details/books/writing-guide
+- *Workplace Software and Skills*, "Creating Different Document Types in Microsoft Word". https://openstax.org/details/books/workplace-software-skills
+
+Authors are listed on each book's OpenStax page. Access for free at openstax.org. OpenStax and Rice University do not endorse this project.
+
+## SFT question–answer pairs
+
+`data/sft_pairs.jsonl` contains educational adaptations of the training documents above, with fictional scenario facts, plus project-policy examples (scope, clarification and refusal) written for this project (`docs/SFT_SCOPE.md`). The source-specific credits and licences above apply to the adapted content.
