@@ -1,0 +1,69 @@
+{
+  "note": "Continued-pretraining runs on the FIRST corpus (11 documents, 7,927 GPT-2 tokens; 10 train / 1 held out = oregon_cv_preparation.txt, 889 scored tokens). Kept for the decision log. Current results come from train_cpt.py on the 20-document corpus (cpt_metrics.json).",
+  "settings": {
+    "model": "openai-community/gpt2",
+    "lr": 5e-05,
+    "batch_size": 2,
+    "block_size": 512,
+    "max_epochs": 3,
+    "seed": 42,
+    "eval_context": 512,
+    "eval_stride": 256,
+    "early_stopping": "stop when held-out loss rises"
+  },
+  "runs": [
+    {
+      "run": "cpt_20261109_024252",
+      "notebook": "original notebook (replaced)",
+      "base_perplexity": 19.84,
+      "epochs": [
+        {
+          "epoch": 1,
+          "train_loss": 3.5742,
+          "val_loss": 2.954,
+          "val_perplexity": 19.18
+        },
+        {
+          "epoch": 2,
+          "train_loss": 3.2108,
+          "val_loss": 2.9397,
+          "val_perplexity": 18.91
+        },
+        {
+          "epoch": 3,
+          "train_loss": 2.9468,
+          "val_loss": 2.9534,
+          "val_perplexity": 19.17
+        }
+      ],
+      "selected_epoch": 2
+    },
+    {
+      "run": "cpt_20261109_121543",
+      "notebook": "notebooks/cpt_first_runs_11_documents.ipynb",
+      "base_perplexity": 19.84,
+      "epochs": [
+        {
+          "epoch": 1,
+          "train_loss": 3.5657,
+          "val_loss": 2.9618,
+          "val_perplexity": 19.33
+        },
+        {
+          "epoch": 2,
+          "train_loss": 3.1976,
+          "val_loss": 2.9429,
+          "val_perplexity": 18.97
+        },
+        {
+          "epoch": 3,
+          "train_loss": 2.9361,
+          "val_loss": 2.9573,
+          "val_perplexity": 19.25
+        }
+      ],
+      "selected_epoch": 2
+    }
+  ],
+  "observation": "Both runs: perplexity fell slightly (19.84 \u2192 ~18.9) and rose again at epoch 3 while training loss kept falling \u2014 overfitting on a very small corpus. The two runs differ slightly because GPU training is not bit-for-bit deterministic."
+}
