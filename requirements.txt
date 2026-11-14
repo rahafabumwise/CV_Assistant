@@ -1,6 +1,7 @@
 # Versions used in the Colab CPT run (Python 3.13, T4 GPU). Colab already has torch.
 transformers==4.57.1
 accelerate==1.11.0
+jedi
 pyyaml
 matplotlib
 numpy
