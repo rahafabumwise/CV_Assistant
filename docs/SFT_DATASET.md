@@ -14,7 +14,6 @@ The 30 test questions (tests/test_questions.csv) are separate and are never used
 - data/sft/split.json: immutable ID lists and grouping decisions for this version.
 - docs/SFT_AUDIT.json: counts, checks, test-file hash and limitations.
 - docs/SFT_SCOPE.md: explicit scope policy for refusal and clarification examples.
-- docs/SFT_REVIEW_051_300.md and docs/SFT_REVIEW_301_335.md: readable examples with sources, for the team's hand review.
 
 ## Training integration
 
