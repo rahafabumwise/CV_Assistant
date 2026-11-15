@@ -1,6 +1,6 @@
 # Reviewed data
 
-11 whole documents, 5,741 whitespace-counted words. Token counts need to be recalculated. No exact full-document duplicates. Fifteen-word normalized phrase overlaps: []. This check does not detect all paraphrases; common topics remain intentionally covered across sources. Cross-split leakage cannot be certified until a split is chosen.
+11 whole documents, 5,741 whitespace-counted words. Token counts need to be recalculated. No exact full-document duplicates. This check does not detect all paraphrases; common topics remain intentionally covered across sources. Cross-split leakage cannot be certified until a split is chosen.
 
 The overlapping topics are education, experience, skills, accomplishment statements and formatting. Similar domain facts are expected; duplicate passages and near-copy examples should not cross training/validation. Original chapter boundaries are retained.
 
