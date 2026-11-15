@@ -2,7 +2,7 @@
 
 ## Contents and status
 
-335 question–answer pairs: 301 training, 34 validation (10%). Version reviewed-v3 added 35 pairs (sft_301–sft_335) on 2026-11-13; see the last section. The first 50 were reviewed and accepted by a team member on 9 November 2026. The other 285 were drafted and checked with an AI assistant. The Phase 2 FAQ asks for at least 50 pairs checked by hand, which the first 50 meet; reviewing more is still worthwhile (docs/SFT_REVIEW_051_300.md and docs/SFT_REVIEW_301_335.md).
+335 question–answer pairs: 301 training, 34 validation (10%). Version reviewed-v3 added 35 pairs (sft_301–sft_335) on 2026-11-13; see the last section. The first 50 were reviewed and accepted by a team member on 9 November 2026. The other 285 were drafted and checked with an AI assistant. The Phase 2 FAQ asks for at least 50 pairs checked by hand, which the first 50 meet;
 
 The 30 test questions (tests/test_questions.csv) are separate and are never used for SFT.
 
