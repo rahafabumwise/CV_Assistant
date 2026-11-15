@@ -8,7 +8,6 @@ Team project for *Building LLM Systems: From Models to Production*.
 **Phase 2:** train our own small model (GPT-2 small, 124M parameters) in two stages, continued pretraining (CPT) and supervised fine-tuning (SFT), then score the base, CPT and SFT models on our 30 test questions.
 
 - Results: [SCOREBOARD.md](SCOREBOARD.md)
-- What we tried and decided: [docs/PHASE2_DECISION_LOG.md](docs/PHASE2_DECISION_LOG.md)
 - Team checklist: [HANDOFF.md](HANDOFF.md)
 
 ## Quick start (Google Colab, free T4 GPU)
