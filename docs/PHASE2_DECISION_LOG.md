@@ -1,11 +1,10 @@
 # Phase 2 decision log
 
-The report's "Decision log" section comes from here. Fill in the `[ ]` values after the final run.
+The report's "Decision log" section comes from here.
 
 ## Data
 - **Test set.** Test IDs 3, 14, 23 and 26 were replaced before any model was trained. All expected answers were written before any model output was seen.
 - **First corpus (reviewed-v2):** 11 documents, 7,927 GPT-2 tokens, split 10 train / 1 held out (`oregon_cv_preparation.txt`, 889 scored tokens).
-- **Problem found:** the SFT split files had been uploaded into `data/cpt/`, overwriting the CPT split. **Decision:** move them to `data/sft/`, restore the CPT split, and make the loader reject a CPT split that does not list `.txt` documents.
 - **Instructor feedback:** the corpus is small. **Decision:** add 9 documents from four OpenStax textbooks (CC BY-NC-SA 4.0), taking only CV-related sections and applying the same cleaning rules as before. The corpus is now **20 documents and 16,654 tokens (2.1×)**.
   - We considered adding 2,484 real CVs from a Kaggle dataset. We decided against it for Phase 2: the CVs belong to experienced professionals, not first-year students; the license needed checking; and they would add a style mismatch rather than advice. Kept as an option for later.
 - **New CPT split:** 18 train (14,646 tokens) / 2 held out (2,008 tokens, 12%), by whole document. We kept `oregon_cv_preparation.txt` and added `openstax_cs_portfolio_and_recommendations.txt`, which is not the source of any test answer and of no SFT pair. No 15-word sequence is shared between any two documents.
