@@ -82,7 +82,7 @@ All text is openly licensed (CC BY-NC-SA 4.0 and CC BY 4.0); see [ATTRIBUTION.md
 
 ## Where the checkpoints are
 
-Checkpoints are **not** in Git. In Colab they are saved to Google Drive:
+Checkpoints are **not** in Git. In Colab they are saved to Google Drive:[https://huggingface.co/MariamDS493/cv-assistant-phase2]
 
 - CPT: `MyDrive/CV_Assistant/experiments/cpt_<date_time>/checkpoints/epoch_<N>`. The selected epoch is in `results/cpt_metrics.json` (`selected_checkpoint`).
 - SFT: `MyDrive/CV_Assistant/experiments/sft_<date_time>/best`. The path is in `results/sft_metrics.json`.
