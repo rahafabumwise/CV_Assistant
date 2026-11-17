@@ -81,8 +81,9 @@ All text is openly licensed (CC BY-NC-SA 4.0 and CC BY 4.0); see [ATTRIBUTION.md
 | Scoring | — | 30 test questions | greedy decoding, max 128 new tokens, the same function for all 3 models |
 
 ## Where the checkpoints are
-
-Checkpoints are **not** in Git. In Colab they are saved to Google Drive:[https://huggingface.co/MariamDS493/cv-assistant-phase2]
+Checkpoints are not in Git. Our trained models and tokenizers are hosted privately on Hugging Face under our team organization:
+- **CPT Model:** https://huggingface.co/cv-assistant-team/cv-team-cpt
+- **SFT Model:** https://huggingface.co/cv-assistant-team/cv-team-sft
 
 - CPT: `MyDrive/CV_Assistant/experiments/cpt_<date_time>/checkpoints/epoch_<N>`. The selected epoch is in `results/cpt_metrics.json` (`selected_checkpoint`).
 - SFT: `MyDrive/CV_Assistant/experiments/sft_<date_time>/best`. The path is in `results/sft_metrics.json`.
