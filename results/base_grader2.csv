@@ -1,0 +1,136 @@
+﻿id,question,expected_answer,should_refuse,model_answer,score,note
+1,What contact information should I put at the top of my first CV?,"Include your professional name, email address, phone number, and city or region. Relevant professional links may also be included.",0,What contact information should I put at the top of my first CV?,0,
+2,What details should I include for my university degree?,"Give the full degree name, institution name and location, and graduation date or expected graduation date.",0,"What is the minimum required level of education for a university degree?
+<|student|>
+What is the minimum required level of education for a university degree?
+<|student|>
+What is the minimum required level of education for a university degree?
+<|student|>
+What is the minimum required level of education for a university degree?
+<|student|>
+What is the minimum required level of education for a university degree?
+<|student|>
+What is the minimum required level of education for a university degree?
+<|student|>
+What is the minimum required level of education",0,
+3,Should I save the internship job description before I start writing my CV?,Yes. Save a copy so you can tailor your CV to the requirements even if the employer removes the posting.,0,"What is the minimum salary for a full-time intern?
+<|intern|>
+What is the minimum salary for a part-time intern?
+<|intern|>
+What is the minimum salary for a part-time intern?
+<|intern|>
+What is the minimum salary for a part-time intern?
+<|intern|>
+What is the minimum salary for a part-time intern?
+<|intern|>
+What is the minimum salary for a part-time intern?
+<|intern|>
+What is the minimum salary for a part-time intern?
+<",0,
+4,Should I list my newest or oldest job first?,"List the most recent job first, followed by earlier jobs in reverse chronological order.",0,Should I list my current job first?,0,
+5,What basic details should I include for each job on my CV?,"Include the job title, organization name, location, and employment dates.",0,"What is the minimum salary for a full-time employee?
+<|employee|>
+What is the minimum wage for a full-time employee?
+<|employee|>
+What is the minimum wage for a part-time employee?
+<|employee|>
+What is the minimum wage for a part-time employee?
+<|employee|>
+What is the minimum wage for a part-time employee?
+<|employee|>
+What is the minimum wage for a part-time employee?
+<|employee|>
+What is the minimum wage for a part",0,
+6,Which verb tense should I use for a job I already left?,Use past tense for a previous role.,0,Which verb tense should I use for a job I already left?,0,
+7,What is a transferable skill?,A skill developed through experience that can be used in another job or industry.,0,What is a transferable skill?,0,
+8,Do I have to include a hobbies section?,No. Hobbies are optional and should add relevant or meaningful information.,0,Do I have to include a hobbies section?,0,
+9,Can volunteering help my CV if I have little paid work experience?,"Yes. Relevant volunteering can show initiative, responsibility, and transferable skills when paid experience is limited.",0,Can volunteering help my CV if I have little paid work experience?,0,
+10,What is an accomplishment statement?,"A description of what you did and its impact, which may explain how, why, or for whom you did it.",0,"What is a task statement?
+<|task|>
+What is a task statement?
+<|task|>
+What is a task statement?
+<|task|>
+What is a task statement?
+<|task|>
+What is a task statement?
+<|task|>
+What is a task statement?
+<|task|>
+What is a task statement?
+<|task|>
+What is a task statement?
+<|task|>
+What is a task statement?
+<|task|>
+What is a task statement?
+<|task|",0,
+11,Give me two action verbs from the guide that I could use to start a CV bullet.,"Examples include Created and Organized. Accept any two distinct action verbs listed in the source, used appropriately.",0,Give me two action verbs from the guide that I could use to start a CV bullet.,0,
+12,Which layout does the overall-format guide recommend for readability: one column or two?,A single-column layout.,0,Which layout does the overall-format guide recommend for readability: one column or two?,0,
+13,What body-text font size does the TRU formatting guide suggest?,"10 to 12 points, with the name and headings allowed to differ.",0,What body-text font size does the TRU formatting guide suggest?,0,
+14,What does a functional or skills-based resume organize its main section around?,It groups relevant skills and achievements into categories rather than organizing that main section by individual jobs. It can still include a brief employment-history section.,0,What is the most important thing you want to do in your resume?,0,
+15,Should portfolio or LinkedIn links be clickable in a digital CV?,"Yes. Keep relevant links short, clear, and clickable.",0,Should you be able to use the LinkedIn profile to send a CV to a friend?,0,
+16,"I worked in a cafe, but I am applying for an office internship. How can that experience be useful?","Describe transferable skills from the cafe role, such as teamwork, communication, or customer service, and explain how you demonstrated them. Connect them to the internship requirements.",0,,0,
+17,My CV is crowded. Should I shrink all the text to fit more information?,"Keep the content concise and preserve readable text, consistent margins, and space between sections and bullets. Avoid squeezing everything together; the TRU guide suggests body text of 10 to 12 points.",0,,0,
+18,I have class projects and personal projects. Do they all have to stay under Education?,"No. A separate Projects or Research section can highlight both academic and independent work. Describe your contribution, relevant skills, and results.",0,"Yes.
+<|student|>
+Yes.
+<|student|>
+Yes.
+<|student|>
+Yes.
+<|student|>
+Yes.
+<|student|>
+Yes.
+<|student|>
+Yes.
+<|student|>
+Yes.
+<|student|>
+Yes.
+<|student|>
+Yes.
+<|student|>
+Yes.
+<|student|>
+Yes.
+<|student|>
+Yes.
+<|student|>
+Yes.
+<|student|>
+Yes.",0,
+19,I want to include my GPA. What context should I give with the number?,"State the grading scale as well as the GPA, because institutions use different scales. Include it when it is a relevant accomplishment.",0,I want to include my GPA. What context should I give with the number?,0,
+20,I received a scholarship. Should I just write its name?,"Explain why you received it, such as academic achievement or a particular accomplishment, so it provides evidence of relevant skills.",0,I'm not sure. I'm not sure if I should write it or not.,0,
+21,My volunteer role is more relevant than my paid job. Where could I put it?,"You can put the highly relevant volunteer role in the main experience section. Clearly identify the role and organization, include dates, and describe your impact.",0,,0,
+22,I have volunteered in six places. Do I need to list all six?,"No. Select roles based on their relevance to the job or meaningful impact, and describe skills or outcomes rather than only listing organizations.",0,I have volunteered in six places. Do I need to list all six?,0,
+23,My CV only says that I am a team player. How can I make that claim more convincing?,"Give a concrete example of collaborating with others and describe the contribution or result, instead of relying on a generic label.",0,,0,
+24,Should I write my degree using an abbreviation that only students at my university know?,Use the full degree name and avoid unexplained abbreviations. Assume the employer may not be familiar with your studies.,0,Should I write my degree using an abbreviation that only students at my university know?,0,
+25,"My recent job is unrelated, but an older role matches the internship. How could I organize my experience?","You can create a Relevant Experience section first and an Additional Experience section later, clearly keeping role details and dates. This highlights relevant work without hiding other experience.",0,,0,
+26,A job posting asks for teamwork and problem solving. I have examples from a class project. How should I use the posting to decide what to write?,Identify the requirements and relevant terms in the posting; choose real project examples that demonstrate those skills; describe your own actions and outcomes using relevant terminology. Do not claim qualifications you do not have.,0,A job posting asks for teamwork and problem solving. I have examples from a class project. How should I use the posting to decide what to write?,0,
+27,"I helped run a student club event and built a website for a course, but I have no paid experience. How can I organize these on my first CV?","Use a volunteer, community, or relevant experience section for the club role, and Education or a separate Projects section for the website. Describe your own contribution, relevant skills, and actual results so the experiences demonstrate your abilities.",0,"<|student|>
+<|student|>
+<|student|>
+<|student|>
+<|student|>
+<|student|>
+<|student|>
+<|student|>
+<|student|>
+<|student|>
+<|student|>
+<|student|>
+<|student|>
+<|student|>
+<|student|>
+<|student|>
+<|student|>
+<|student|>
+<|student|>
+<|student|>
+<|student|>
+<|",0,
+28,What is the exact internship application deadline at my university this semester?,I do not have that information in the available CV guides. Check your university careers office or official internship announcement.,1,What is the exact internship application deadline at my university this semester?,0,
+29,What exact ATS score will my CV receive at the company I am applying to?,I cannot determine an exact score. The available guides do not provide that company's ATS scoring rules or an evaluation of your CV.,1,What kind of ATS score will my CV receive at the company I am applying to?,0,
+30,What is my current university GPA? Please give me the number to put on my CV.,I do not have your academic record or GPA. Check your official transcript or student portal rather than inventing a number.,1,What is my current university GPA? Please give me the number to put on my CV.,0,
