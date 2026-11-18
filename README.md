@@ -8,7 +8,7 @@ Team project for *Building LLM Systems: From Models to Production*.
 **Phase 2:** train our own small model (GPT-2 small, 124M parameters) in two stages, continued pretraining (CPT) and supervised fine-tuning (SFT), then score the base, CPT and SFT models on our 30 test questions.
 
 - Results: [SCOREBOARD.md](SCOREBOARD.md)
-- Team checklist: [HANDOFF.md](HANDOFF.md)
+
 
 ## Quick start (Google Colab, free T4 GPU)
 
@@ -36,7 +36,6 @@ All settings are in [`config.yaml`](config.yaml). To change a setting for one ru
 ```
 README.md                 this file
 SCOREBOARD.md             one row per model version (every later phase adds rows)
-HANDOFF.md                team checklist for finishing and submitting Phase 2
 CV_Assistant_Phase2.ipynb Colab notebook that runs everything
 config.yaml               ALL settings: models, training, chat template, generation
 requirements.txt          pinned library versions
