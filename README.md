@@ -86,6 +86,6 @@ Checkpoints are not in Git. Our trained models and tokenizers are hosted private
 
 - CPT: `MyDrive/CV_Assistant/experiments/cpt_<date_time>/checkpoints/epoch_<N>`. The selected epoch is in `results/cpt_metrics.json` (`selected_checkpoint`).
 - SFT: `MyDrive/CV_Assistant/experiments/sft_<date_time>/best`. The path is in `results/sft_metrics.json`.
-- Shared Drive folder: **TODO: paste the share link here** (Drive → right-click `CV_Assistant` → Share → "Anyone with the link").
+
 
 `config.yaml` uses `models.cpt: auto` and `models.sft: auto`, which pick the latest selected checkpoints automatically. To upload a checkpoint to the Hugging Face Hub instead, run `python train_cpt.py --push_to_hub <user>/cv-gpt2-cpt` with `HF_TOKEN` set.
